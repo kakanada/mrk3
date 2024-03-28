@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Camera</title>
+    <link rel="stylesheet" href="/cap_path.css" />
+</head>
+<body>
+    <!-- шапка для ориентации с меню -->
+    <div id="menu">
+        <a href="/" class="menu_link" id="menu_control">Control MRK</a>
+        <a href="/cap_path" class="menu_link" id="menu_cap">Camera</a>
+        <a href="/setings" class="menu_link" id="menu_seting">Setings</a>
+        <a href="/log.txt" class="menu_link" id="menu_log">Log file</a>
+    </div>
+    <!-- основной контент для вывода информации (картинок) -->
+    <div id="main">
+        <div id="cap_stream">
+            <img src="/cap" alt="Поток с камеры" class="stream" />
+        </div>
+    </div>
+    <!-- дополнительные элементы -->
+    <p id="ping"></p>
+    <script src="/cap_path.js"></script>
+</body>
+</html>

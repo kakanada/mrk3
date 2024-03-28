@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Control MRK</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <!-- ����� ��� ���������� � ���� -->
+        <div id="menu">
+            <a href="/" class="menu_link" id="menu_control">Control MRK</a>
+            <a href="/cap_path" class="menu_link" id="menu_cap">Camera</a>
+            <a href="/setings" class="menu_link" id="menu_seting">Setings</a>
+            <a href="/log.txt" class="menu_link" id="menu_log">Log file</a>
+        </div>
+        <!-- �������� ������� ��� ������ ���������� (��������) -->
+        <div id="main">
+            <!-- ����� ������� -->
+            <div id="main_left">
+                <div id="cap_stream">
+                    <img src="/cap" alt="����� � ������" class="stream" />
+                </div>
+                <div id="motor_check">
+                    <div id="motor">
+                        <div class="motor_div">
+                            <div id="motor_get">
+                                <div id="motor_get_real">
+
+                                </div>
+                                <div class="motor_line_1">
+
+                                </div>
+                                <div class="motor_line_2">
+
+                                </div>
+                                <div class="motor_line_3">
+
+                                </div>
+                            </div>
+                            <div id="motor_set">
+                                <div id="motor_set_real">
+
+                                </div>
+                                <div class="motor_line_1">
+
+                                </div>
+                                <div class="motor_line_2">
+
+                                </div>
+                                <div class="motor_line_3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="servo">
+                        <div class="motor_div">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ����������� ������� -->
+            <div id="main_center">
+                <div id="lidar_stream">
+                    <img src="/lidar" alt="����� � ������" class="stream" />
+                </div>
+                <div id="pos_check">
+                    <img src="/4x2c.jpg" class="pc4" id="pc4x2c" />
+                    <img src="/4x2r.jpg" class="pc4" id="pc4x2r" />
+                    <img src="/4x2l.jpg" class="pc4" id="pc4x2l" />
+                    <img src="/4x4c.jpg" class="pc4" id="pc4x4c" />
+                    <img src="/4x4r.jpg" class="pc4" id="pc4x4r" />
+                    <img src="/4x4l.jpg" class="pc4" id="pc4x4l" />
+                </div>
+            </div>
+            <!-- ������ ������� -->
+            <div id="main_right">
+                <div id="comp_stream">
+                    <img src="/compute" alt="����� ����� �������" class="stream" />
+                </div>
+            </div>
+        </div>
+        <!-- �������������� �������� -->
+        <p id="ping"></p>
+        <script src="/script.js"></script>
+    </body>
+</html>
